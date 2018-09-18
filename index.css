@@ -1,5 +1,5 @@
 *{
-    transition: 0.3s;
+    transition: 0.3s ease;
 }
 
 body{
@@ -38,6 +38,9 @@ body{
     height: auto;
     text-align: center;
     padding: 0;
+}
+
+.container-bottom, .container-top{
     margin: 30px auto;
 }
 
@@ -101,7 +104,6 @@ ul,li{
 }
 
 .projects:hover{
-    transition: 0.3s;
     font-weight: bold;
     font-size: 18px;
 }
